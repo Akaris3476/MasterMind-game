@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mGDRMIROH6Y=",
+  "success": true,
+  "projectFilePath": "/home/akaris/works/MiniMasterMind/MiniMasterMind/MiniMasterMind.csproj",
+  "expectedPackageFiles": [
+    "/home/akaris/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.1/microsoft.aspnetcore.app.ref.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+/home/akaris/works/MiniMasterMind/MiniMasterMind/bin/Debug/net9.0/MiniMasterMind
+/home/akaris/works/MiniMasterMind/MiniMasterMind/bin/Debug/net9.0/MiniMasterMind.deps.json
+/home/akaris/works/MiniMasterMind/MiniMasterMind/bin/Debug/net9.0/MiniMasterMind.runtimeconfig.json
+/home/akaris/works/MiniMasterMind/MiniMasterMind/bin/Debug/net9.0/MiniMasterMind.dll
+/home/akaris/works/MiniMasterMind/MiniMasterMind/bin/Debug/net9.0/MiniMasterMind.pdb
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.GeneratedMSBuildEditorConfig.editorconfig
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.AssemblyInfoInputs.cache
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.AssemblyInfo.cs
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.csproj.CoreCompileInputs.cache
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.dll
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/refint/MiniMasterMind.dll
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.pdb
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/MiniMasterMind.genruntimeconfig.cache
+/home/akaris/works/MiniMasterMind/MiniMasterMind/obj/Debug/net9.0/ref/MiniMasterMind.dll
