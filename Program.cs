@@ -44,7 +44,7 @@ class Turn
 class Game
 {
 
-    private List<string> _EnemyDeck = [];          //enemy draw balls
+    private List<string> _EnemyDeck = [];          //list with enemy codes
 
     public List<string> EnemyDeck
     {
@@ -170,7 +170,7 @@ class Game
                         
                 if (matches == GameSize.NumberOfCodes)
                 {
-                    MainClass.MainEnemyDeck = EnemyDeck; //save enemy deck in case of victory for further display
+                    MainClass.MainEnemyDeck = EnemyDeck; //save enemy deck for further display after the game
                     return true; //1 means win
                 }
             }
@@ -231,7 +231,6 @@ class MainClass
                           "Black = your guess matches both position and color.\n" +
                           "White = you and enemy have common color.\n" +
                           $"You goal is to get {GameSize.NumberOfCodes} black codes");
-
         
         
         do
