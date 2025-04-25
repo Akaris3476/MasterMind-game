@@ -1,6 +1,4 @@
 ﻿
-using System.Runtime.CompilerServices;
-
 static class GameSize
 {
     public static int NumberOfTurns = 6;
@@ -9,29 +7,28 @@ static class GameSize
 
 static class Colors //color list
 {
-    private static readonly List<string> _ColorList = ["red", "green", "blue", "grey", "orange", "brown"];
-    public static List<string> ColorList { get { return _ColorList; } }
-    
+    public static List<string> ColorList { get; } = 
+    [
+        "red", "green", "blue", "grey", "orange", "brown"
+    ];
+
 }
+
 
 class Turn
 {
 
-    private List<string> _TurnColors = new();
-    public List<string> TurnColors { get { return _TurnColors; } }
+    public List<string> TurnColors { get; } = new();
 
-    private List<string> _TurnMatches = new();
-    public List<string> TurnMatches { get { return _TurnMatches; } set { _TurnMatches = value; } }
-    
-    
+    public List<string> TurnMatches { get; set; } = new();
+
     public Turn(string[] playerInput)
     {
         foreach (string color in playerInput)
         {
-            
             if (Colors.ColorList.Contains(color)) //input check
             {
-                _TurnColors.Add(color);
+                TurnColors.Add(color);
             }  else {
                 throw new ArgumentException("Invalid colors. Try again.\n");
             }
@@ -43,20 +40,16 @@ class Turn
 
 class Game
 {
-
-    private List<string> _EnemyDeck = [];          //list with enemy codes
-
-    public List<string> EnemyDeck
-    {
-        get { return _EnemyDeck; }
-    }
     
-    private List<Turn> _TurnsHistory = new();
+    public List<string> EnemyDeck { get; } = new(); //list with enemy codes
+
+    
+    private List<Turn> _turnsHistory = new();
     
     public Turn TurnsHistory
     { 
-        set { _TurnsHistory.Add(value);}
-        get { return _TurnsHistory.Last(); }
+        set { _turnsHistory.Add(value);}
+        get { return _turnsHistory.Last(); }
     }
 
     
@@ -67,7 +60,7 @@ class Game
     {
         int sampleMaxIndex = sample.Count;
         
-        Random rnd = new Random();
+        Random rnd = new();
         
 
         for (int i = 0; i < size; i++)
